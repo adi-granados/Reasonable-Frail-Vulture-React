@@ -37,11 +37,7 @@ const Contact10 = (props) => {
             />
             <h3 className="contact10-text5 thq-heading-3">{props.location2}</h3>
             <p className="thq-body-large">{props.location2Description}</p>
-            <div className="contact10-container4">
-              <span className="thq-body-small thq-button-flat">
-                Get directions
-              </span>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -52,16 +48,15 @@ const Contact10 = (props) => {
 Contact10.defaultProps = {
   heading1: 'Contact Us',
   location2Description: 'Email: info@residentialconstruction.com',
-  location1: 'Residential Construction Company LLC',
-  content1:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in ero.',
+  location1: 'Granados General Contractor LLC',
+
   location1ImageSrc:
     'https://images.unsplash.com/photo-1706720097169-b4120bb97a30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTg1NDE1OXw&ixlib=rb-4.0.3&q=80&w=1080',
   location1ImageAlt: 'Office Location',
   location2ImageSrc:
     'https://images.unsplash.com/photo-1719328860646-0ed3e7891582?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTg1NDE1OXw&ixlib=rb-4.0.3&q=80&w=1080',
-  location2: 'Phone: 123-456-7890',
-  location1Description: '123 Main Street, City, State, Zip Code',
+  location2: 'Phone: 269-369-0615',
+  location1Description: '2205 Holly St, Benton Harbor, MI, 49022',
   location2ImageAlt: 'image2Alt',
 }
 

@@ -98,7 +98,7 @@ Features24.defaultProps = {
   feature1ImgSrc:
     'https://images.unsplash.com/photo-1539269071019-8bc6d57b0205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTg1NDE2MHw&ixlib=rb-4.0.3&q=80&w=1080',
   feature2Title: 'Quality Materials Used',
-  feature1Title: 'Expert Residential Construction',
+  feature1Title: 'Residential Construction',
 }
 
 Features24.propTypes = {

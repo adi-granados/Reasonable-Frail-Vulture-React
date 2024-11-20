@@ -19,11 +19,7 @@ const Steps2 = (props) => {
               mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
               libero vitae erat.
             </p>
-            <div className="steps2-actions">
-              <button className="thq-button-filled thq-button-animated steps2-button">
-                <span className="thq-body-small">Main action</span>
-              </button>
-            </div>
+            {/* The button and its container have been removed */}
           </div>
           <div className="steps2-container2">
             <div className="steps2-container3 thq-card">
