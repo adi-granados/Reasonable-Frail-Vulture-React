@@ -11,10 +11,10 @@ const Navbar8 = (props) => {
 
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS Service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS Template ID
+        'service_kgclkjg', // Replace with your EmailJS Service ID
+        'template_xckqknt', // Replace with your EmailJS Template ID
         e.target,
-        'YOUR_USER_ID' // Replace with your EmailJS User ID
+        'z4cWuirrneV0R_sif' // Replace with your EmailJS User ID
       )
       .then(
         (result) => {
