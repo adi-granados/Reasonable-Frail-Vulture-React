@@ -90,20 +90,25 @@ const Navbar8 = (props) => {
           >
             <h2>Contact Us</h2>
             <form id="contact-form" onSubmit={sendEmail}>
-              <label>
-                Your Email:
-                <input type="email" name="user_email" required />
-              </label>
-              <label>
-                Subject:
-                <input type="text" name="subject" required />
-              </label>
-              <label>
-                Message:
-                <textarea name="message" required></textarea>
-              </label>
-              <button type="submit">Send Message</button>
-            </form>
+  <label>
+    Your Name:
+    <input type="text" name="from_name" required />
+  </label>
+  <label>
+    Your Email:
+    <input type="email" name="user_email" required />
+  </label>
+  <label>
+    Subject:
+    <input type="text" name="subject" required />
+  </label>
+  <label>
+    Message:
+    <textarea name="message" required></textarea>
+  </label>
+  <button type="submit">Send Message</button>
+</form>
+
           </div>
         </div>
       )}
